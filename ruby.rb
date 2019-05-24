@@ -3,16 +3,43 @@
 # ### 1. Use two different Ruby loops to loop over this array, multiplying each element by 2.
 #
 tempArray = [1, 2, 6, 9, 3, 21]
-def mult_two (arr)
-  arr.each() {|e| p e * 2}
+# x = 100
+# array = []
+# count = 0
+# x.times do
+#     count = count + 1
+# def times_two (array)
+#   array[5] * 2
+# end
+# p times_two(tempArray)
+for i in tempArray do
+   p i * 2
+ end
+
+tempArray.each do |e|
+  p e * 2
 end
-mult_two(tempArray)
-#
-# your ruby loop here
-def two_times (arr)
-  arr.map() {|e| p e * 2}
-end
-two_times(tempArray)
+# i=0
+# while i < tempArray.size do
+#   tempArray[i]
+#   p i = i * 2
+# end 
+# loop do 
+#   p tempArray(i) * 2
+#     break
+# end 
+ 
+
+# def mult_two (arr)
+#   arr.each() {|e| p e * 2}
+# end
+# mult_two(tempArray)
+# #
+# # your ruby loop here
+# def two_times (arr)
+#   arr.map() {|e| p e * 2}
+# end
+# two_times(tempArray)
 #
 # ### 2. From all the built in Ruby methods we've seen in class this week, choose three that you think are particularly helpful and create examples to show how they work.
 #
